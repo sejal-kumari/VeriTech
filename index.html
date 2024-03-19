@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Member</title>
+    <style>
+        .banner-left img {
+            position: relative;
+            width: 150px;
+            left: -1ex;
+        }
+        .banner-right img {
+            position: relative;
+            width: 150px;
+            top: -1.5em;
+            left: 90%;
+        }
+        .go-up {
+            position: relative;
+            top: -80px !important;
+        }
+        .banner-name {
+            display: flex;
+            margin: auto;
+            font-size: 2em;
+            font-weight: bold;
+            width: fit-content;
+            background-color: #FF00FF;
+            border-radius: 10px;
+            padding: .5em 2em;
+            color: white;
+        }
+        .banner-name-secondary {
+            display: flex;
+            margin: auto;
+            font-size: 1em;
+            font-weight: bold;
+            width: fit-content;
+            background-color: #FF00FF;
+            border-radius: 5px;
+            padding: .5em 2em;
+            color: white;
+        }
+        #sec-name {
+            display: flex;
+            margin: 2em auto;
+            font-size: 1.5em;
+            font-weight: bold;
+            width: fit-content;
+            padding: .5em 2em;
+        }
+        #hero-text {
+            position: relative;
+        }
+        #hero-desc {
+            display: flex;
+            margin: 2em auto;
+            font-size: 1.5em;
+            width: 60%;
+            text-align: center;
+        }
+        hr {
+            /* dotter hr */
+            border: none;
+            border-top: 3px dotted #bbb;
+            border-color:#FF00FF;
+            width: 50%;
+        }
+        .team-grid {
+            display: flex;
+            width: 60%;
+            margin: auto;
+            text-align: center;
+            justify-content: center;
+            margin: 2em auto;
+        }
+        .team-grid img {
+            vertical-align: middle;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 0 3em;
+        }
+        em {
+            color:#770737;
+        }
+        div {
+            margin-bottom: 1em;
+        }
+    </style>
+</head>
+<body bgColor="#FFB6C1">
+    <!-- Make banner in top right using css -->
+    <div class="banner-right">
+        <img src="bn-right.png" alt="">
+    </div>
+    <div class="container">
+        <p class="banner-name" id="hero-text" >VeriTech</p>
+        <p id="hero-desc">Welcome to VeriTech, where a dedicated team of professionals works together to bring innovation, creativity and expertise to software industry. get to know the individuals who make our company thrive.</p>
+        <hr>
+        <p id="sec-name">Meet Our Team</p>
+        <p class="banner-name-secondary">Leadership/Management Team</p>
+        <!-- create a grid of five photos of team members in round -->
+        <div class="team-grid">
+            <div class="team-member">
+                <img src="man.jpg" alt="">
+                <p>[Founder Name]</p>
+                <em>Founder/CEO</em>
+            </div>
+            <div class="team-member">
+                <img src="man.jpg" alt="">
+                <p>[Founder Name]</p>
+                <em>Founder/CEO</em>
+            </div>
+        </div>
+        <div class="team-grid">
+            <div class="team-member">
+                <img src="man.jpg" alt="">
+                <p>[VP Name]</p>
+                <em>VP, Marketing & Growth</em>
+            </div>
+            <div class="team-member">
+                <img src="man.jpg" alt="">
+                <p>[VP Name]</p>
+                <em>VP, Sales & Growth</em>
+            </div>
+            <div class="team-member">
+                <img src="man.jpg" alt="">
+                <p>[VP Name]</p>
+                <em>VP, Finance & Operation</em>
+            </div>
+        </div>
+    </div>
+    <div class="banner-left" style="margin-bottom: 2rem;">
+        <img src="bn-left.png" alt="">
+        <p class="banner-name-secondary go-up">Development Team</p>
+    </div>
+    <div class="team-grid">
+        <div class="team-member">
+            <img src="man.jpg" alt="">
+            <p>[Developer Name]</p>
+            <em>Team Lead, SE</em>
+        </div>
+        <div class="team-member">
+            <img src="man.jpg" alt="">
+            <p>[Developer Name]</p>
+            <em>Software Engineer</em>
+        </div>
+        <div class="team-member">
+            <img src="man.jpg" alt="">
+            <p>[Developer Name]</p>
+            <em>Software Engineer</em>
+        </div>
+        <div class="team-member">
+            <img src="man.jpg" alt="">
+            <p>[Developer Name]</p>
+            <em>Software Engineer</em>
+        </div>
+    </div>
+    <div class="team-grid">
+        <div class="team-member">
+            <img src="man.jpg" alt="">
+            <p>[Developer Name]</p>
+            <em>Software Engineer</em>
+        </div>
+        <div class="team-member">
+            <img src="man.jpg" alt="">
+            <p>[Developer Name]</p>
+            <em>Software Engineer</em>
+        </div>
+        <div class="team-member">
+            <img src="man.jpg" alt="">
+            <p>[Developer Name]</p>
+            <em>Software Engineer</em>
+        </div>
+    </div>
+    <div class="banner-right" style="margin-bottom: 2rem;">
+        <img src="bn-right.png" alt="">
+        <p class="banner-name-secondary go-up">Sales and Marketing Team</p>
+    </div>
+    <div class="team-grid">
+        <div class="team-member">
+            <img src="man.jpg" alt="">
+            <p>[Employee Name]</p>
+            <em>Team Lead</em>
+        </div>
+        <div class="team-member">
+            <img src="man.jpg" alt="">
+            <p>[Employee Name]</p>
+            <em>Sales Officer</em>
+        </div>
+        <div class="team-member">
+            <img src="man.jpg" alt="">
+            <p>[Employee Name]</p>
+            <em>Sales Officer</em>
+        </div>
+        <div class="team-member">
+            <img src="man.jpg" alt="">
+            <p>[Employee Name]</p>
+            <em>Sales Officer</em>
+        </div>
+    </div>
+    <div class="team-grid">
+        <div class="team-member">
+            <img src="man.jpg" alt="">
+            <p>[Founder Name]</p>
+            <em>Marketing Officer</em>
+        </div>
+        <div class="team-member">
+            <img src="man.jpg" alt="">
+            <p>[Founder Name]</p>
+            <em>Marketing Officer</em>
+        </div>
+        <div class="team-member">
+            <img src="man.jpg" alt="">
+            <p>[Founder Name]</p>
+            <em>Marketing Officer</em>
+        </div>
+    </div>
+    <div class="banner-left">
+        <img src="bn-left.png" alt="">
+    </div>
+</body>
+</html>
